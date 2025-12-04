@@ -110,7 +110,7 @@ jobs:
         $XVFB bash run-tests.sh
         cd /d/a/aseprite/
         tar.exe -a -c -f out.zip /d/a/aseprite/aseprite/build/
-   - name: Weewe ohio
+           - name: Weewe ohio
       uses: actions/upload-artifact@v4
       with:
         name: pro gamon
